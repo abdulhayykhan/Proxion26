@@ -41,7 +41,7 @@ mysql -u [username] -p [database] < q01.sql
 - **Subqueries**: Correlated, nested, and complex aggregations
 - **Performance**: Optimized queries for efficiency and readability
 
-## ✅ Verification Status
+## Verification Status
 
 All 25 queries have been verified for:
 - ✓ **Syntax Correctness** - Valid MySQL 8.0
@@ -49,7 +49,7 @@ All 25 queries have been verified for:
 - ✓ **Output Validation** - Against expected results
 
 
-## � Documentation
+## Documentation
 
 - **Problem Statement**: See `Query Quest Module — Problem Statement.pdf`
 - **Complete Solutions**: See `Complete Solution.pdf`
