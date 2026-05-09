@@ -1,0 +1,8 @@
+-- Q7. Dates with Higher Temperature than Previous Day
+-- Tables: Weather
+
+SELECT w1.recordDate
+FROM Weather w1
+JOIN Weather w2
+    ON w2.recordDate = DATE_SUB(w1.recordDate, INTERVAL 1 DAY)
+WHERE w1.temperature > w2.temperature;
